@@ -179,10 +179,12 @@
                         <li>This is item one.</li>
                         <li>This is item two.</li>
                         <li>This is item three.</li>
-                        <ul>
-                            <li>3A</li>
-                            <li>3B</li>
-                        </ul>
+                        <li>
+                            <ul>
+                                <li>3A</li>
+                                <li>3B</li>
+                            </ul>
+                        </li>
                     </ul>
                 </figure>
             </section>
@@ -229,16 +231,15 @@
                 <h4 id="label">Input with Label</h4>
 
                 <figure>
-                    <label for="text">Example Input</label>
-                    <input type="text" name="name" placeholder="">
+                    <label for="name-example">Example Input</label>
+                    <input type="text" id="name-example" name="name-example" placeholder="">
                 </figure>
 
                 <h4 id="text-area">Text Area</h4>
                 
                 <figure>
-                    <label for="textarea">Example Textarea</label>
-                    <input type="hidden" name="_subject" value="Website contact" />
-                    <textarea name="message" placeholder=""></textarea>
+                    <label for="message-example">Example Textarea</label>
+                    <textarea name="message-example" id="message-example" placeholder=""></textarea>
                 </figure>
             </section>
 
@@ -290,11 +291,16 @@
             </section>
 
 
-            <a href="#page-nav"><img src="images/top.png" class="reset-page"></a>
+            <a href="#page-nav"><img src="images/top.png" class="reset-page" alt="button to top"></a>
         </main>
 
         <footer>
-            <h4 class="footer-text"> &copy; 2018 - Zohreh Daly</h4>     
+            <h4 class="footer-text"> &copy; 2018 - Zohreh Daly</h4>
+
+            <nav class="footer-nav">
+                <li><a href="https://www.linkedin.com/in/zohreh-daly-8b7250159/">LinkedIn</a></li>
+                <li><a href="https://www.zdalydesigns.com">My UX Site</a>
+            </nav>
         </footer>
     
     </body>

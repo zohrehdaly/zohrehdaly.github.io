@@ -31,25 +31,27 @@
             </section>
 
             <form id="contactform" action="https://formspree.io/zohreh.daly@g.austincc.edu" method="POST">
-                <label for="text">Name</label>
-                <input type="text" name="name" placeholder="">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="">
 
                 <label for="email">Email</label>
-                <input type="email" name="_replyto" placeholder="">
+                <input type="email" id="email" name="email" placeholder="">
 
-                <label for="textarea">Message</label>
+                <label for="message">Message</label>
                 <input type="hidden" name="_subject" value="Website contact" />
-                <textarea name="message" placeholder=""></textarea>
+                <textarea name="message" id="message" placeholder=""></textarea>
 
                 <button type="submit" value="Send" class="button-wrapper">submit</button>
             </form>
-
-            <a href="#page-nav"><img src="images/top.png" class="reset-page"></a>
-           
         </main>
         
         <footer>
             <h4 class="footer-text"> &copy; 2018 - Zohreh Daly</h4>
+
+            <nav class="footer-nav">
+                <li><a href="https://www.linkedin.com/in/zohreh-daly-8b7250159/">LinkedIn</a></li>
+                <li><a href="https://www.zdalydesigns.com">My UX Site</a>
+            </nav>
         </footer>
     </body>
 </html>
