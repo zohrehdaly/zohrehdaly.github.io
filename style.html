@@ -7,12 +7,6 @@
         <link rel="stylesheet" href="stylesheet.css" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i" rel="stylesheet">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
     </head>
 
     <body>
@@ -56,6 +50,23 @@
                         <li><a href="#body-text">Body Text</a></li>
                     </ul>
                     </li>
+
+                    <li class="list-item-mobile list-item-desktop"><a href="#components">Components</a>
+                    <ul class="list-item-mobile list-item-desktop">
+                        <li><a href="#buttons">Buttons</a></li>
+                        <li><a href="#forms">Forms</a></li>
+                    </ul>
+                    </li>
+
+                    <li class="list-item-mobile list-item-desktop"><a href="#layout">Layout and Grids</a>
+                    <ul class="list-item-mobile list-item-desktop">
+                        <li><a href="#card">Card</a></li>
+                        <li><a href="#grid">Grid</a></li>
+                    </ul>
+                    </li>
+
+
+
                 </ul>
             </nav>
             
@@ -64,7 +75,7 @@
             <section>
                 <h3 id="primary-colors">Primary Colors</h3>
                 
-                <div class="multiple-images">
+                <figure class="multiple-images">
                     <svg height="200" width="200">
                         <circle cx="100" cy="100" r="100" fill="#296CB2" />
                         <text x="50%" y="40%" alignment-baseline="middle" text-anchor="middle" font-weight="600" fill=#FFF>Primary A</text>
@@ -82,26 +93,21 @@
                         <text x="50%" y="40%" alignment-baseline="middle" text-anchor="middle" font-weight="600">Primary C</text>
                         <text x="50%" y="60%" alignment-baseline="middle" text-anchor="middle" font-weight="600">#FFD2CF</text>    
                     </svg> 
-                </div> 
-            </section> 
-
-
-            <section>
+                </figure> 
+        
                 <h3 id="secondary-colors">Secondary Colors</h3>
                 
-                <div class="multiple-images">
+                <figure class="multiple-images">
                     <svg height="200" width="200">
                         <circle cx="100" cy="100" r="100" fill="#91AFCD" />
                         <text x="50%" y="40%" alignment-baseline="middle" text-anchor="middle" font-weight="600">Secondary</text>
                         <text x="50%" y="60%" alignment-baseline="middle" text-anchor="middle" font-weight="600">#91AFCD</text>    
                     </svg>
-                </div>
-            </section> 
-
-            <section> 
+                </figure>
+           
                 <h3 id="text-colors">Text Colors</h3>
                 
-                <div class="multiple-images">
+                <figure class="multiple-images">
                     <svg height="200" width="200">
                         <circle cx="100" cy="100" r="100" fill="#4b4444" />
                         <text x="50%" y="40%" alignment-baseline="middle" text-anchor="middle" font-weight="600" fill=#FFF>Dark Text</text>
@@ -119,12 +125,12 @@
                         <text x="50%" y="40%" alignment-baseline="middle" text-anchor="middle" font-weight="600">Accent</text>
                         <text x="50%" y="60%" alignment-baseline="middle" text-anchor="middle" font-weight="600">#B3A1A1</text>    
                     </svg>
-                </div>
+                </figure>
             </section>
 
-            <section>
-                <h2 id="typography">Typography</h2>  
-                
+            <h2 id="typography">Typography</h2>  
+            
+            <section>  
                 <h3 id="type-styles">Type Styles</h3>
                 
                 <figure>
@@ -137,9 +143,9 @@
 
                     <p class="visited-link">This is a visited link in a paragraph.</p>
 
-                    <p class="card-text">Card text</p>
+                    <p class="card-text card-text-example">Card text</p>
 
-                    <p class="card-text-subscript">Card descriptions
+                    <p class="card-text-subscript">Card description</p>
                 </figure>
             </section>
 
@@ -170,21 +176,23 @@
                 <figure>
                     <h4>An unordered list of items.</h4>    
                     <ul>
-                    <li>This is item one.</li>
-                    <li>This is item two.</li>
-                    <li>This is item three.</li>
-                    <ul>
-                    <li>3A</li>
-                    <li>3B</li>
-                    </ul>
+                        <li>This is item one.</li>
+                        <li>This is item two.</li>
+                        <li>This is item three.</li>
+                        <ul>
+                            <li>3A</li>
+                            <li>3B</li>
+                        </ul>
                     </ul>
                 </figure>
             </section>
 
+            <h2 id="components">Components</h2>
+                
             <section>
-                <h3 id="button">Buttons</h3> 
+                <h3 id="buttons">Buttons</h3> 
 
-                <div class="multiple-images">
+                <figure class="multiple-images">
                     <div class="card">    
                         <button>submit</button>
                         <p class="card-text">A button</p>
@@ -204,8 +212,83 @@
                         <button class="active">submit</button>
                         <p class="card-text">Activated</p>
                     </div>
+                </figure>
 
             </section>
+
+            <section>
+    
+                <h3 id="forms">Forms</h3>
+
+                <h4 id="form-header">Form Header</h4>
+                <figure class="form-header example">
+                    <h1>Contact Zohreh</h1>
+                    <img src="images/resumepic.svg" class="motif" alt="abstract art">
+                </figure>
+
+                <h4 id="label">Input with Label</h4>
+
+                <figure>
+                    <label for="text">Example Input</label>
+                    <input type="text" name="name" placeholder="">
+                </figure>
+
+                <h4 id="text-area">Text Area</h4>
+                
+                <figure>
+                    <label for="textarea">Example Textarea</label>
+                    <input type="hidden" name="_subject" value="Website contact" />
+                    <textarea name="message" placeholder=""></textarea>
+                </figure>
+            </section>
+
+            <h2 id="layout">Layout and Grid</h2>
+                
+            <section>
+                <h3 id="card">Card</h3>
+
+                <figure class="multiple-images">
+                    <div class="card">
+                        <img src="images/resumepic.svg" class="card-image" alt="picture of sun">
+                        <p class="card-text">example</p>
+                        <p class="card-text card-text-subscript">This is so fancy!</p>
+                    </div>
+                </figure>
+
+                <h3 id="grid">Grid</h3>
+                <figure class="multiple-images">
+                    <div class="card">
+                        <img src="images/resumepic.svg" class="card-image" alt="picture of sun">
+                        <p class="card-text">example</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/resumepic.svg" class="card-image" alt="picture of sun">
+                        <p class="card-text">example</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/resumepic.svg" class="card-image" alt="picture of sun">
+                        <p class="card-text">example</p>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="images/resumepic.svg" class="card-image" alt="picture of sun">
+                        <p class="card-text">example</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/resumepic.svg" class="card-image" alt="picture of sun">
+                        <p class="card-text">example</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/resumepic.svg" class="card-image" alt="picture of sun">
+                        <p class="card-text">example</p>
+                    </div>
+                </figure>
+            </section>
+
 
             <a href="#page-nav"><img src="images/top.png" class="reset-page"></a>
         </main>
