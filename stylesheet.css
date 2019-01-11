@@ -422,6 +422,10 @@ footer {
 	text-transform: uppercase;
 }
 
+.footer-nav a {
+	color: var(--color-white);
+}
+
 .footer-nav a:visited {
 	color: var(--color-white) !important;
 }
