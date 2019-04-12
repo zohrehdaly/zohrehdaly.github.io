@@ -19,7 +19,7 @@ main {
 }
 
 section {
-    border-bottom: 5px solid var(--color-primary-cool);
+    border-bottom: 5px solid var(--color-accent-dark);
 	padding-bottom: 3rem;
 }
 
@@ -137,7 +137,7 @@ a:link {
 }
 
 a:visited {
-	color: var(--color-accent-dark);
+	color: var(--color-primary-cool);
 }
 
 /* no hover state for links in text */
@@ -291,7 +291,7 @@ HEADER COMPONENT
 }
 
 .page-nav {
-  	align-items: center;
+    align-items: center;
     display: flexbox;
     flex: column;
     font-family: var(--primary-font);
@@ -399,7 +399,7 @@ FOOTER COMPONENT
 
 footer {
   	width: 100vw;
-    background: var(--color-primary-cool);
+    background: var(--color-accent-dark);
 }
 
 .footer-contact {
@@ -431,7 +431,7 @@ footer {
 }
 
 .footer-text{
-    background: var(--color-primary-cool);
+    background: var(--color-accent-dark);
     color: var(--color-white);
     display: inline-block;
     margin: 0;
@@ -510,7 +510,7 @@ BUTTONS
 */
 
 button {
-    background-color: var(--color-primary-cool);
+    background-color: var(--color-accent-dark);
     border-radius: 100px;
     border-style: none;
     color: var(--color-white);
@@ -538,14 +538,14 @@ button:visited {
 
 button:hover {
 	background-color: var(--color-white);
-	box-shadow: 0 0 0 2px var(--color-primary-cool);
+	box-shadow: 0 0 0 2px var(--color-accent-dark);
 	color: var(--color-primary-cool) !important;
 	font-weight: 600;
 	transition: transform .2s;
 }
 
 button:active {
-	box-shadow: inset 0 0 0 3px var(--color-primary-cool) !important;
+	box-shadow: inset 0 0 0 3px var(--color-accent-dark) !important;
 }
 
 button:focus {
@@ -553,9 +553,9 @@ button:focus {
 }
 
 .active {
-	box-shadow: inset 0 0 0 3px var(--color-primary-cool);
+	box-shadow: inset 0 0 0 3px var(--color-accent-dark);
 	background-color: var(--color-white);
-	color: var(--color-primary-cool) !important;
+	color: var(--color-accent-dark) !important;
 	font-weight: 600;
 }
 
@@ -569,7 +569,7 @@ button:focus {
 
 .hover {
 	background-color: var(--color-white);
-	box-shadow: 0 0 0 2px var(--color-primary-cool);
+	box-shadow: 0 0 0 2px var(--color-accent-dark);
 	color: var(--color-primary-cool) !important;
 	font-weight: 600;
 	transition: transform .2s;
@@ -591,7 +591,7 @@ LAYOUT
 
 .greeting {
 	align-items: center; 
-	border-bottom: 10rem solid var(--color-primary-cool);
+	border-bottom: 10rem solid var(--color-accent-dark);
 	display: flex;
 	flex-direction: column;
 	height: 100vh;  
@@ -645,7 +645,7 @@ LAYOUT
 }
 
 .hero-text {
-	color: var(--color-primary-cool);
+	color: var(--color-accent-dark);
 	font-family: var(--primary-font);
 	font-size: 5em;
 	letter-spacing: .3em;
@@ -659,7 +659,7 @@ LAYOUT
 }
 
 .primary-background {
-	background-color: var(--color-primary-cool);
+	background-color: var(--color-accent-dark);
 	color: var(--color-white);
 	font-size: var(--font-size-xxxl);
 	padding-bottom: 7rem;
@@ -681,7 +681,7 @@ LAYOUT
 }
 
 .resume-header {
-	color: var(--color-primary-cool);
+	color: var(--color-accent-dark);
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 1rem;
@@ -754,18 +754,18 @@ input {
 }
 
 input:hover, textarea:hover {
-	box-shadow: 0 0 0 5px var(--color-primary-cool);
+	box-shadow: 0 0 0 5px var(--color-accent-dark);
 	transition: transform .2s;
 
 }
 
 input:action, textarea:action {
-	box-shadow: 0 0 0 5px var(--color-primary-cool);
+	box-shadow: 0 0 0 5px var(--color-accent-dark);
 	transition: transform .2s;
 }
 
 input:focus, textarea:focus {
-	box-shadow: 0 0 0 5px var(--color-primary-cool); 
+	box-shadow: 0 0 0 5px var(--color-accent-dark); 
 }
 
 label {
@@ -891,7 +891,7 @@ CARDS
 	}
 	
 	.card:focus, .solo-image:focus {
-		box-shadow: 0 0 0 5px var(--color-primary-cool);
+		box-shadow: 0 0 0 5px var(--color-accent-dark);
 	}
 
 	.diagram {
