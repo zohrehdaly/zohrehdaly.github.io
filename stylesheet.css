@@ -261,7 +261,7 @@ HEADER COMPONENT
  */
 
  header {
- 	background-color: var(--color-accent-dark);
+ 	background-color: var(--color-primary-cool);
  	width: 100%;
  }
 
