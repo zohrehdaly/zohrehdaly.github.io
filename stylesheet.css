@@ -19,7 +19,7 @@ main {
 }
 
 section {
-    border-bottom: 5px solid var(--color-accent-dark);
+    border-bottom: 5px solid var(--color-primary-cool);
 	padding-bottom: 3rem;
 }
 
@@ -399,7 +399,7 @@ FOOTER COMPONENT
 
 footer {
   	width: 100vw;
-    background: var(--color-accent-dark);
+    background: var(--color-primary-cool);
 }
 
 .footer-contact {
@@ -431,7 +431,7 @@ footer {
 }
 
 .footer-text{
-    background: var(--color-accent-dark);
+    background: var(--color-primary-cool);
     color: var(--color-white);
     display: inline-block;
     margin: 0;
@@ -510,7 +510,7 @@ BUTTONS
 */
 
 button {
-    background-color: var(--color-accent-dark);
+    background-color: var(--color-primary-cool);
     border-radius: 100px;
     border-style: none;
     color: var(--color-white);
