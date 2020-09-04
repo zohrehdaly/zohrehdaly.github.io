@@ -645,7 +645,7 @@ LAYOUT
 }
 
 .hero-text {
-	color: var(--color-accent-dark);
+	color: var(--color-primary-cool);
 	font-family: var(--primary-font);
 	font-size: 5em;
 	letter-spacing: .3em;
@@ -659,7 +659,7 @@ LAYOUT
 }
 
 .primary-background {
-	background-color: var(--color-accent-dark);
+	background-color: var(--color-primary-cool);
 	color: var(--color-white);
 	font-size: var(--font-size-xxxl);
 	padding-bottom: 7rem;
@@ -681,7 +681,7 @@ LAYOUT
 }
 
 .resume-header {
-	color: var(--color-accent-dark);
+	color: var(--color-primary-cool);
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 1rem;
@@ -754,18 +754,18 @@ input {
 }
 
 input:hover, textarea:hover {
-	box-shadow: 0 0 0 5px var(--color-accent-dark);
+	box-shadow: 0 0 0 5px var(--color-primary-cool);
 	transition: transform .2s;
 
 }
 
 input:action, textarea:action {
-	box-shadow: 0 0 0 5px var(--color-accent-dark);
+	box-shadow: 0 0 0 5px var(--color-primary-cool);
 	transition: transform .2s;
 }
 
 input:focus, textarea:focus {
-	box-shadow: 0 0 0 5px var(--color-accent-dark); 
+	box-shadow: 0 0 0 5px var(--color-primary-cool); 
 }
 
 label {
