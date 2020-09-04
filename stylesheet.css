@@ -886,7 +886,7 @@ CARDS
 @media(min-width: 1200px) {
     .card:hover {
     	box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.5);
-    	transform: scale(1.3);
+    	transform: scale(1.1);
     	transition: transform .2s;
 	}
 	
